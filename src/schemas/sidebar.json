@@ -1,0 +1,46 @@
+{
+  "Main": {
+    "actstitude_logo": {
+      "type": "Image",
+      "config": {
+        "constraint": {},
+        "thumbnails": [],
+        "label": "Actstitude logo"
+      }
+    },
+    "call_to_action_label": {
+      "type": "Text",
+      "config": {
+        "label": "Call to action label"
+      }
+    },
+    "call_to_action_link": {
+      "type": "Link",
+      "config": {
+        "allowTargetBlank": true,
+        "label": "Call to action link"
+      }
+    },
+    "instagram_link": {
+      "type": "Link",
+      "config": {
+        "allowTargetBlank": true,
+        "label": "Instagram link"
+      }
+    },
+    "facebook_link": {
+      "type": "Link",
+      "config": {
+        "allowTargetBlank": true,
+        "label": "Facebook link"
+      }
+    },
+    "linkedin_link": {
+      "type": "Link",
+      "config": {
+        "allowTargetBlank": true,
+        "label": "LinkedIn link"
+      }
+    }
+  }
+}

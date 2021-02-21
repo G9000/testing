@@ -1,0 +1,193 @@
+{
+  "Main": {
+    "greeting": {
+      "type": "StructuredText",
+      "config": {
+        "single": "heading5",
+        "label": "Greeting"
+      }
+    },
+    "heading": {
+      "type": "StructuredText",
+      "config": {
+        "single": "heading1",
+        "label": "Heading"
+      }
+    },
+    "hero_image": {
+      "type": "Image",
+      "config": {
+        "constraint": {},
+        "thumbnails": [],
+        "label": "Hero image"
+      }
+    },
+    "hero_button_label": {
+      "type": "Text",
+      "config": {
+        "label": "Hero button label"
+      }
+    },
+    "body": {
+      "type": "Slices",
+      "fieldset": "Slice zone",
+      "config": {
+        "labels": {
+          "services": [],
+          "clientele": [],
+          "call_to_action": []
+        },
+        "choices": {
+          "services": {
+            "type": "Slice",
+            "fieldset": "Services",
+            "description": "Service prototype",
+            "icon": "local_mall",
+            "display": "grid",
+            "non-repeat": {
+              "label": {
+                "type": "StructuredText",
+                "config": {
+                  "single": "heading5",
+                  "label": "Label"
+                }
+              },
+              "section_heading": {
+                "type": "StructuredText",
+                "config": {
+                  "single": "heading2",
+                  "label": "Section heading"
+                }
+              },
+              "call_to_action_label": {
+                "type": "Text",
+                "config": {
+                  "label": "Call to action label"
+                }
+              },
+              "call_to_action_link": {
+                "type": "Link",
+                "config": {
+                  "allowTargetBlank": true,
+                  "label": "call to action link"
+                }
+              }
+            },
+            "repeat": {
+              "service_thumbnail": {
+                "type": "Image",
+                "config": {
+                  "constraint": {},
+                  "thumbnails": [],
+                  "label": "Service thumbnail"
+                }
+              },
+              "service_name": {
+                "type": "StructuredText",
+                "config": {
+                  "single": "heading4",
+                  "label": "Service name"
+                }
+              },
+              "service_description": {
+                "type": "Text",
+                "config": {
+                  "label": "Service description"
+                }
+              },
+              "service_redirection": {
+                "type": "Text",
+                "config": {
+                  "label": "Service redirection"
+                }
+              },
+              "service_redirection_link": {
+                "type": "Link",
+                "config": {
+                  "allowTargetBlank": true,
+                  "label": "Service redirection link"
+                }
+              }
+            }
+          },
+          "clientele": {
+            "type": "Slice",
+            "fieldset": "Clientele",
+            "description": "Clientele prototype",
+            "icon": "face",
+            "display": "grid",
+            "non-repeat": {
+              "label": {
+                "type": "StructuredText",
+                "config": {
+                  "single": "heading5",
+                  "label": "Label"
+                }
+              },
+              "section_heading": {
+                "type": "StructuredText",
+                "config": {
+                  "single": "heading2",
+                  "label": "Section heading"
+                }
+              },
+              "call_to_action_label": {
+                "type": "Text",
+                "config": {
+                  "label": "Call to action label"
+                }
+              },
+              "call_to_action_link": {
+                "type": "Link",
+                "config": {
+                  "allowTargetBlank": true,
+                  "label": "Call to action link"
+                }
+              }
+            },
+            "repeat": {
+              "client_logo": {
+                "type": "Image",
+                "config": {
+                  "constraint": {},
+                  "thumbnails": [],
+                  "label": "Client logo"
+                }
+              }
+            }
+          },
+          "call_to_action": {
+            "type": "Slice",
+            "fieldset": "Call to action",
+            "description": "Call to action",
+            "icon": "call_made",
+            "display": "list",
+            "non-repeat": {
+              "section_heading": {
+                "type": "StructuredText",
+                "config": {
+                  "single": "heading2",
+                  "label": "Section heading"
+                }
+              },
+              "call_to_action_label": {
+                "type": "Text",
+                "config": {
+                  "label": "Call to action label"
+                }
+              },
+              "call_to_action_link": {
+                "type": "Link",
+                "config": {
+                  "allowTargetBlank": true,
+                  "label": "Call to action link"
+                }
+              }
+            },
+            "repeat": {}
+          }
+        }
+      }
+    }
+  }
+}

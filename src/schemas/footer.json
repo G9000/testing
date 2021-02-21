@@ -1,0 +1,49 @@
+{
+  "Main": {
+    "tagline": {
+      "type": "StructuredText",
+      "config": {
+        "single": "heading3",
+        "label": "Tagline"
+      }
+    },
+    "malaysia": {
+      "type": "Text",
+      "config": {
+        "label": "Malaysia"
+      }
+    },
+    "malaysia_full_address": {
+      "type": "Text",
+      "config": {
+        "label": "Malaysia full address"
+      }
+    },
+    "malaysia_google_map": {
+      "type": "Link",
+      "config": {
+        "allowTargetBlank": true,
+        "label": "Malaysia google map"
+      }
+    },
+    "singapore": {
+      "type": "Text",
+      "config": {
+        "label": "Singapore"
+      }
+    },
+    "singapore_full_address": {
+      "type": "Text",
+      "config": {
+        "label": "Singapore full address"
+      }
+    },
+    "singapore_google_map": {
+      "type": "Link",
+      "config": {
+        "allowTargetBlank": true,
+        "label": "Singapore google map"
+      }
+    }
+  }
+}
